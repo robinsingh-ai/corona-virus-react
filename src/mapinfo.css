@@ -1,0 +1,26 @@
+.info__flag {
+  height: 120px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.info__flag img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.info__name {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+.info__confiremed,
+.info__recovered,
+.info__deaths,
+.info__basic {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
