@@ -1,3 +1,39 @@
+# 🦠🖐️ Corona Virus Tracker Web App
+
+- Web App for Tracking COVID-19 Corona Virus Spread worldwide
+- Current statistics of global total confirmed, deaths, recovered cases
+- Statistics of countries and regions total cases count
+- World map with tooltips and description of affected regions
+- Data is from [disease.sh](https://disease.sh)
+
+
+
+## Tech Stack
+
+- React.js
+- Firebase for deploy
+- React Hooks
+- leaftet for map and tooltips
+- styled-components
+- material-ui
+
+## API Used
+[disease.sh](https://disease.sh/docs/)
+
+## Preview
+- https://coronavirus-web-app.web.app/
+
+
+## Devlopment
+
+
+```
+$ git clone https://github.com/robin025/corona-virus-react.git
+$ cd corona-virus-react
+$ npm install && npm start
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
