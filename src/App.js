@@ -13,7 +13,7 @@ import Map from "./components/Map";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Tabel from "./components/Tabel";
 import { sortData } from "./sorting";
-// import LineGraph from "./components/LineGraph";
+
 import "leaflet/dist/leaflet.css";
 import { preetyStat } from "./preetystat";
 
