@@ -1,0 +1,46 @@
+.covidstats {
+  flex: 1;
+  cursor: pointer;
+}
+.covidstats:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+
+.covidstat__colorred {
+  color: rgb(235, 75, 75) !important;
+  font-size: 50px;
+}
+
+.covidstattop__red {
+  border-top: 15px solid rgb(243, 96, 96) !important;
+}
+.covidstattop__black {
+  border-top: 15px solid rgb(117, 115, 115) !important;
+}
+.covidstattop__green {
+  border-top: 15px solid rgb(96, 255, 96) !important;
+}
+
+.covidstat__colorgreen {
+  color: rgb(91, 235, 91) !important;
+  font-size: 50px;
+}
+
+.covidstat__colorblack {
+  color: rgb(116, 113, 113) !important;
+  font-size: 50px;
+}
+
+.covidstats__cases {
+  color: rgb(255, 85, 85);
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.covidstats__totalcases {
+  color: rgb(0, 0, 0);
+  font-weight: bold !important;
+  font-size: 30px !important;
+  margin-bottom: 5px !important;
+}

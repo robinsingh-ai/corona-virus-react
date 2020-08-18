@@ -23,7 +23,7 @@ const casesTypeColors = {
   },
 };
 
-//drawing circles on the map with interactive tooltop
+
 export const showDataonMap = (data, casesType = "cases") =>
   data.map((country) => (
     <Circle

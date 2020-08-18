@@ -1,0 +1,30 @@
+.tabel {
+  overflow: scroll;
+  height: 410px;
+}
+
+.tabel tr:nth-of-type(odd) {
+  background-color: rgb(241, 240, 240);
+}
+
+.tabel__categories {
+  background-color: rgb(204, 253, 253) !important;
+}
+.tabel::-webkit-scrollbar {
+  display: none;
+}
+
+.tabel tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabel td {
+  padding: 0.7rem;
+}
+
+/* and this simple code will hide for IE.Edge and firefox */
+.tabel {
+  -ms-overflow-style: none; /*IE and edge*/
+  scrollbar-width: none; /*firefox*/
+}
